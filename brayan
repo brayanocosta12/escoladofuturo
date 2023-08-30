@@ -1,1 +1,28 @@
+class pessoa:
+  def _init_(self, nome, idade, cpf):
+    self.nome = nome
+    self.idade = idade
+    self.cpf = cpf
+  def exibirInfo(self):
+    print("Nome: ", self.nome, "Idade: ", self.idade, "CPF: ", self.cpf)
 
+lista_pessoas = [] #Cria lista
+
+# pega os dados da pessoa
+n = input("Digite o nome ")
+i = input("Digite a idade ")
+c = input("Digite o cpf ")
+# cria o objeto pessoa
+
+opcao = input("Escolha uma opção: ")
+
+
+if opcao == 'n':
+    nome = input("Nome da pessoa: ")
+    nome.append(nome)
+    print("Pessoa cadastrada com sucesso!")
+# adiciona o objeto criado na lista
+lista_pessoas.append(p)
+
+for pessoa in lista_pessoas:
+  pessoa.exibirInfo()
